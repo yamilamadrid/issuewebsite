@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Russo+One&display=swap')
+
+.rubik-mono one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #ddd7cb;
+  font-family: "Russo One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  color: #A6866A;
+}
+
+.mainContainer {
+  font-size: 24pt;
+  padding-left: 400px;
+  padding-right: 100px;
+  margin: 0px;
+}
+
+.Header1 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 47pt;
+  padding-left: 20px;
+  padding-right: 100px;
+  border-top: 1rem solid #000000;
+  color: #3d3635;
+}
+
+.auraimage {
+  display: block;
+  padding-top: 65px;
+  padding-right: 65px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10;:
+  
+}
+
+.text-lines {
+  line-height: 1;
+  line
+}
+
+.IntroPara {
+  font-size: 22px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  text-align: right;
+}
+
+
+.header-container {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #333;
+}
+
+.menu {
+  background-color: #E4EAF2;
+  padding: 15px;
+  width: 250px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  height: 100%;
+  font-size: 24pt;
+}
+
+
+
+a, a:visited, a:active {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #fff;
+}
+
+a:active {
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+}
+
+
+
+
+
+.content {
+  font-weight: lighter;
+}
+
+.pagenavigation1 {
+  background-color: ;
+  height: 150px;
+  width: 600px;
+  border: 5px solid #000000;
+  float: left;
+  border-radius: 20px;
+
+  display: block;
+  padding-top: 65px;
+  padding-right: 65px;
+  margin-left: 5px;
+  margin-right: 300px;
+  margin-top: 10;:
+}
+
+.pagenavigation2 {
+  background-color: ;
+  height: 150px;
+  width: 600px;
+  border: 5px solid #000000;
+  float: left;  
+  border-radius: 20px;
+
+  display: block;
+  padding-top: 65px;
+  padding-right: 65px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10;:
+}
+
+.pagenavigation3 {
+  background-color: ;
+  height: 150px;
+  width: 600px;
+  border: 5px solid #000000;
+  float: left;
+  border-radius: 20px;
+
+  display: block;
+  padding-top: 65px;
+  padding-right: 65px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10;:
+}
+
+.subTitle {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #A6866A;
+}

@@ -7,6 +7,8 @@
   font-style: normal;
 }
 
+
+
 .russo-one-regular {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
@@ -14,32 +16,72 @@
 }
 
 body {
-  background-color: #ddd7cb;
+
   font-family: "Russo One", sans-serif;
   font-weight: 200;
   font-style: normal;
   padding: 0;
   margin: 0;
-  color: #A6866A;
-}
+  background-color: #e9dac6;
 
 .mainContainer {
   font-size: 24pt;
-  padding-left: 400px;
+  padding-left: 300px;
   padding-right: 100px;
   margin: 0px;
 }
 
+.menu {
+  position: fixed;
+  width: 100%;
+  background-color: #000000;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul li{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+.menu ul li a{
+  color: #fff;
+}
+
 .Header1 {
+  margin-top: 70px;
+  position: relative;
   font-family: "Russo One", sans-serif;
   font-weight: 250;
   font-style: normal;
-  font-size: 47pt;
-  padding-left: 20px;
-  padding-right: 100px;
-  border-top: 1rem solid #000000;
-  color: #3d3635;
+  font-size: 55pt;
+  justify-content: flex-end;
+  background-image: url("IMG_9550.JPG");
+  background-size: 600px 600px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
+
+.backgroundimage {
+  position: absolute;
+  background-image: url("IMG_9550.JPG");
+  background-repeat: no-repeat, repeat;
+  display: flex;
+  justify-content: flex-start ;
+}
+
 
 .auraimage {
   display: block;
@@ -62,22 +104,23 @@ body {
 }
 
 .yellowperilblackpower {
-  display: block;
-  padding-top: 65px;
-  padding-right: 100px;
-  margin-left: auto;
-  margin-right: 10px;
-  margin-top: 10;:
-  
+  width: 20px;
+  height: 25px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .overlap {
   display: block;
-  padding-top: 70px;
-  padding-right: 100px;
-  margin-left: auto;
-  margin-right: 10px;
-  margin-top: 50;:
+  padding-top: 2px;
+  padding-bottom: 30px;
+  margin-top: 50;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 50%;
   
 }
 
@@ -88,9 +131,10 @@ body {
 
 .IntroPara {
   font-size: 22px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-left: 10px;
   text-align: right;
+  
 }
 
 
@@ -106,14 +150,15 @@ body {
 }
 
 .menu {
-  background-color: #E4EAF2;
-  padding: 15px;
+  background-color: #000000;
+  padding: 20px;
   width: 250px;
   left: 0px;
   top: 0px;
   position: fixed;
-  height: 100%;
+  width: 100%;
   font-size: 24pt;
+  z-index: 2;
 }
 
 
@@ -133,86 +178,46 @@ a:hover {
 }
 
 
-
-
-
 .content {
+  padding-top: 5px;
   font-weight: lighter;
 }
 
-.pagenavigation1 {
-  background-color: ;
-  text-align: center;
-  height: 100px;
-  width: 600px;
-  border: 5px solid #3d3635;
-  float: left;
-  border-radius: 20px;
-
-  display: block;
-  padding-top: 65px;
-  padding-right: 65px;
-  margin-left: 5px;
-  margin-right: 300px;
-  margin-top: 10;:
+.historycontent {
+  padding-top: 5px;
+  font-weight: lighter;
 }
 
-.pagenavigation2 {
-  background-color: ;
-  text-align: center;
-  height: 100px;
-  width: 600px;
-  border: 5px solid #3d3635;
-  float: left;  
-  border-radius: 20px;
-
-  display: block;
-  padding-top: 65px;
-  padding-right: 65px;
-  margin-left: 5px;
-  margin-right: 10px;
-  margin-top: 10;:
-}
-
-.pagenavigation3 {
-  background-color: ;
-  text-align: center;
-  height: 100px;
-  width: 600px;
-  border: 5px solid #3d3635;
-  float: left;
-  border-radius: 20px;
-
-  display: block;
-  padding-top: 65px;
-  padding-right: 65px;
-  margin-left: 5px;
-  margin-right: 10px;
-  margin-top: 10;:
-}
-
-.pagenavigation4 {
-  background-color: ;
-  text-align: center;
-  height: 100px;
-  width: 600px;
-  border: 5px solid #3d3635;
-  float: left;
-  border-radius: 20px;
-
-  display: block;
-  padding-top: 65px;
-  padding-right: 65px;
-  margin-left: 5px;
-  margin-right: 10px;
-  margin-top: 10;:
-}
 
 .subTitle {
   text-align: right;
   padding-bottom: 5px;
   padding-left: 10px;
   margin-left: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 1px;
   border-bottom: 5px solid #A6866A;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.subTitleleft {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 1px;
+  border-bottom: 5px solid #A6866A;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
